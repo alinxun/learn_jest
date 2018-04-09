@@ -1,0 +1,33 @@
+{
+  "name": "learn_jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alinxun/learn_jest.git",
+  "author": "linxun <alinxun@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1",
+    "ts-jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
